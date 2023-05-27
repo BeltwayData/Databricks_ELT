@@ -10,7 +10,7 @@ def bronze_autoload_task():
     bronze_autoload = (spark.readStream
       .format("cloudFiles")
       .option("cloudFiles.format", "csv")
-      .option("cloudFiles.schemaLocation", "s3://acledbucket/schema2/")
+      .option("cloudFiles.schemaLocation", "s3://##########")
       .option("cloudFiles.maxFilesPerTrigger", "1")
       .load("s3://acledbucket/directory/"))
 
