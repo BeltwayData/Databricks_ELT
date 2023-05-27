@@ -12,5 +12,5 @@ def bronze_autoload_task():
       .option("cloudFiles.format", "csv")
       .option("cloudFiles.schemaLocation", "s3://##########")
       .option("cloudFiles.maxFilesPerTrigger", "1")
-      .load("s3://acledbucket/directory/"))
+      .load("s3://#######"))
 
