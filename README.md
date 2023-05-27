@@ -12,8 +12,7 @@ Project consists of an AWS S3 bucket to store batch data from ACLED. However, yo
 - <b>Databricks</b>
 - <b>AWS</b>
 
-<h2>Environments Used </h2>![money](https://github.com/BeltwayData/Databricks_ELT/assets/106789871/a9150734-348a-490b-b67d-faff36f00129)
-![Uploading money.JPG…]()
+<h2>Environments Used </h2>
 
 
 - <b>Windows 10</b> (21H2)
