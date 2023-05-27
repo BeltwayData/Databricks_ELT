@@ -5,7 +5,7 @@ def bronze_autoload_task():
 
     (bronze_autoload.writeStream
       .format("delta")
-      .option("checkpointLocation", "s3://acledbucket/checkpointacled/")
+      .option("checkpointLocation", "s3://#######")
       .option("mergeSchema", "true")
-      .toTable("bronze_ACLED_SQL_ETL_9")
+      .toTable("#######")
       .start())
